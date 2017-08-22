@@ -5,7 +5,7 @@ searchBtn.addEventListener('click', () => {
   let searchValue = document.querySelector('.search-input').value,
       xhr = new XMLHttpRequest(),
       method = "GET",
-      url = `https://en.wikipedia.org/w/api.php?action=query&titles=${searchValue}&origin=*&prop=revisions&rvprop=content&format=json`;
+      url = `https://en.wikipedia.org/w/api.php?action=query&titles=${searchValue}&origin=*&prop=revisions&rvprop=extracts&exintro=&explaintext=&format=json`;
 
   xhr.open(method, url, true);
   // xhr.setRequestHeader("Origin", "http://localhost:3000/");
