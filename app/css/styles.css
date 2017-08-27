@@ -455,6 +455,7 @@ h1 {
 h1.logo {
   text-align: center;
   color: white;
+  font-size: 10vmin;
 }
 
 a {
@@ -466,7 +467,6 @@ a {
   max-width: 768px;
   margin: 25% auto 0;
   padding: 0 15px;
-  background: silver;
 }
 
 .search-form {
